@@ -3,6 +3,7 @@ This is the final project of JHU EN.580.627 Deep Learning for Medical Imaging co
 ## Methods
 * Dataset: TCIA Lymph Node Abdomen dataset, including 88 multidetector CT.
 * Model: Conditional GAN with a modified UNet generator and a CNN discriminator. Below is the overall framework:
+
   <img src="img/GAN.png" alt="image" width="45%" height="45%">
 * Loss function: Pixel loss + perceptual loss + adversarial loss.
 * Evaluation: Mean Squared Error (MSE), Peak Signal-to-Noise Ratio (PSNR), Structural Similarity Index (SSIM), and Hausdorff Distance (HD). Compared with conventional total variation (TV) denoising.
@@ -16,8 +17,8 @@ Image quality scores of motion-affected, TV-denoised, and GAN-generated images. 
 
 Group difference between the image quality of GAN-generated, TV-denoised, and motion-affected images:
 
-<img src="img/stat.png" alt="image" width="50%" height="50%">
+<img src="img/stat.png" alt="image" width="100%" height="100%">
 
 Sample visualization:
 
-<img src="img/visualize.png" alt="image" width="50%" height="50%">
+<img src="img/visualize.png" alt="image" width="100%" height="100%">
