@@ -1,5 +1,5 @@
 # Image-synthesis-for-motion-artifacts-mitigation-in-interventional-CT
-This is the final project of JHU EN.580.627 Deep Learning for Medical Imaging course.
+
 ## Methods
 * Dataset: TCIA Lymph Node Abdomen dataset, including 88 multidetector CT.
 * Model: Conditional GAN with a modified UNet generator and a CNN discriminator. Below is the overall framework:
